@@ -48,7 +48,7 @@ main {
 }
 
 .write-btn {
-  background-color: orangered;
+  background-color: var(--button-primary);
   color: white;
   padding: 10px 15px;
   border-radius: 25px;
@@ -57,4 +57,10 @@ main {
   bottom: 120px;
   right: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
