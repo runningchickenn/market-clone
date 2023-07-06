@@ -13,7 +13,7 @@ const calcTime = (timeStamp) => {
   else if (minute > 0) return `${minute}분 전`;
   else if (second > 0) return `${second}초 전`;
   //undefined뜨는 에러 처리. 초가 0일 때
-  else '방금전';
+  else return '방금전';
 };
 
 //데이터를 화면에 render해주는 함수
